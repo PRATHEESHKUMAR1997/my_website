@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PRATHEESH</title>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+ 
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+    $("#news-slider").owlCarousel({
+        items : 3,
+        itemsDesktop : [1199,3],
+        itemsDesktopSmall : [1000,2],
+        itemsMobile : [650,1],
+        pagination :false,
+        autoPlay : true
+    });
+});
+	</script>
+</head>
+<body>
+	<header>
+		<div class="headerstyles">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-7">
+						<div class="row marginleft">
+							<div class="col col-xl-4">
+								<p><i class="fa fa-phone"></i>+91 9047534179</p>
+
+							</div>
+							<div class="col">
+								<p><i class="fa fa-envelope"></i> kumarpratheesh693@gmail.com</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5">
+						<div class="text-right">
+							<ul>
+								<li><i class="fa fa-facebook"></i></li>
+								<li><i class="fa fa-instagram"></i></li>
+								<li><i class="fa fa-twitter"></i></li>
+								<li><i class="fa fa-skype"></i></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="headerstyles1">
+			<div class="container">
+				<nav class="navbar navbar-expand-md  navbar-dark">
+				  <!-- Brand -->
+				  <a class="navbar-brand w-25" href="#"><img src="images/Logo_color_box.png" class="img-fluid img-thumbnail w-25" ></a>
+
+				  <!-- Toggler/collapsibe Button -->
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+
+				  <!-- Navbar links -->
+				  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+				    <ul class="navbar-nav ">
+				      <li class="nav-item">
+				        <a class="nav-link" href="#">HOME</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#">ABOUT US</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#">COUNTACT US</a>
+				      </li> 
+				    </ul>
+				  </div> 
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section class="banner">
+		<div id="demo" class="carousel slide" data-ride="carousel">
+		  <ul class="carousel-indicators">
+		    <li data-target="#demo" data-slide-to="0" class="active"></li>
+		    <li data-target="#demo" data-slide-to="1"></li>
+		    <li data-target="#demo" data-slide-to="2"></li>
+		  </ul>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img src="images/banner2-1-1.jpg" alt="Los Angeles" class="img-fluid w-100">
+		      <div class="carousel-caption">
+		      </div>   
+		    </div>
+		    <div class="carousel-item">
+		      <img src="images/web-dseign.png" alt="Chicago" class="img-fluid w-100">
+		      <div class="carousel-caption">
+		        
+		      </div>   
+		    </div>
+		    <div class="carousel-item">
+		      <img src="images/banner2-1-1	.jpg" alt="New York" class="img-fluid w-100">
+		      <div class="carousel-caption">
+		        
+		      </div>   
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+		    <span class="carousel-control-prev-icon"></span>
+		  </a>
+		  <a class="carousel-control-next" href="#demo" data-slide="next">
+		    <span class="carousel-control-next-icon"></span>
+		  </a>
+		</div>
+	</section>
+	<section class="section2">
+		<div class="container">
+			 <div class="row ">
+			 	<div class="col">
+			 		<div class="sction1_subdiv1">
+			 			<div class="card">
+						    <img class="card-img-top" src="images/img2.jpg" alt="Card image" style="width:100%">
+						    <div class="card-body">
+						      <h4 class="card-title">John Doe</h4>
+						      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor lectus nibh. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. </p>
+						      <a href="#" class="btn btn-primary">See Profile</a>
+						    </div>
+						  </div>
+			 		</div>
+			 	</div>
+			 	<div class="col">
+			 		<div class="sction1_subdiv1">
+			 			<div class="card">
+						    <img class="card-img-top" src="images/img2.jpg" alt="Card image" style="width:100%">
+						    <div class="card-body">
+						      <h4 class="card-title">John Doe</h4>
+						      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor lectus nibh. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. </p>
+						      <a href="#" class="btn btn-primary">See Profile</a>
+						    </div>
+						  </div>
+			 		</div>
+			 	</div>
+			 	<div class="col">
+			 		<div class="sction1_subdiv1">
+			 			<div class="card">
+						    <img class="card-img-top" src="images/img2.jpg" alt="Card image" style="width:100%">
+						    <div class="card-body">
+						      <h4 class="card-title">John Doe</h4>
+						      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor lectus nibh. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. </p>
+						      <a href="#" class="btn btn-primary">See Profile</a>
+						    </div>
+						  </div>
+			 		</div>
+			 	</div>
+			 </div>
+		</div>
+	</section>
+	<section class="section2 section3">
+		<div class="container">
+			 <div class="fromsection">
+			 	<div class="row">
+			 		<div class="col">
+			 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15794.329377489657!2d77.30998376715516!3d8.244683091104038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04f8f967104d49%3A0xf94e65afb9bd4a0c!2sThuckalay%2C+Tamil+Nadu!5e0!3m2!1sen!2sin!4v1530607517297" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			 		</div>
+			 		<div class="col">
+			 			<form name="contactform" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+					        <div class="form-group">
+					            <label for="inputName" class="col-lg-2 control-label">Name</label>
+					            <div class="col-lg-10">
+					                <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Your Name" required>
+					            </div>
+					        </div>
+					        <div class="form-group">
+					            <label for="inputEmail1" class="col-lg-2 control-label">Email</label>
+					            <div class="col-lg-10">
+					                <input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="Your Email" required>
+					            </div>
+					        </div>
+					        <div class="form-group">
+					            <label for="inputPassword1" class="col-lg-2 control-label">Message</label>
+					            <div class="col-lg-10">
+					                <textarea class="form-control" rows="4" id="inputMessage" name="inputMessage" placeholder="Your message..." required></textarea>
+					            </div>
+					        </div>
+					        <div class="form-group">
+					            <div class="col-lg-offset-2 col-lg-10">
+					                <button type="submit" class="btn btn-default">
+					                    Send Message
+					                </button>
+					            </div>
+					        </div>
+					    </form>
+					    
+			 		</div>
+			 	</div>
+			 </div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+		    <div class="row">
+		        <div class="col-md-12">
+		            <div id="news-slider" class="owl-carousel">
+		                <div class="post-slide">
+		                    <div class="post-img">
+		                        <img src="images/img-1.jpg" alt="">
+		                        <span class="icons">
+		                            <img src="images/img-5.jpg" alt="">
+		                        </span>
+		                    </div>
+		                    <div class="post-review">
+		                        <ul class="post-bar">
+		                            <li><i class="fa fa-calendar"></i>Apr 2, 2016</li>
+		                            <li><i class="fa fa-user"></i> admin</li>
+		                        </ul>
+		                        <h3 class="post-title">Latest News Post</h3>
+		                        <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum hic officia quaerat sapiente, vitae. </p>
+		                        <a href="#" class="read">read more<i class="fa fa-angle-right"></i></a>
+		                    </div>
+		                </div>
+		 
+		                <div class="post-slide">
+		                    <div class="post-img">
+		                        <img src="images/img-2.jpg" alt="">
+		                        <span class="icons">
+		                            <img src="images/img-6.jpg" alt="">
+		                        </span>
+		                    </div>
+		                    <div class="post-review">
+		                        <ul class="post-bar">
+		                            <li><i class="fa fa-calendar"></i>Apr 5, 2016</li>
+		                            <li><i class="fa fa-user"></i> admin</li>
+		                        </ul>
+		                        <h3 class="post-title">Latest News Post</h3>
+		                        <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum hic officia quaerat sapiente, vitae. </p>
+		                        <a href="#" class="read">read more<i class="fa fa-angle-right"></i></a>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+	</section>
+	<footer>
+		<div class="footerstyle">
+			<div class="container"> 
+				 <div class="copyright">
+				 	<h5><marquee> Copyright © 2017-2018 PK.</marquee></h5>
+				 </div>
+			</div>
+		</div>
+	</footer>
+<?php
+	if (isset($_POST['inputName'])) 
+	    //echo"hello";
+
+	$myemail = "kumarpratheesh693@gmail.com";
+
+	/* Check all form inputs using check_input function */
+	$name = $_POST['inputName'];
+	$email = $_POST['inputEmail'];
+	$message = $_POST['inputMessage'];
+
+
+
+	/* Let's prepare the message for the e-mail */
+
+	$subject2 = "Message from Birmingham Vegans website";
+
+	
+$message = "
+
+Someone has sent you a message using your contact form:
+
+Name:". $name.
+"Email:". $email.
+
+"Message:".
+$message."
+
+";
+
+/* Send the message using mail() function */
+mail($myemail, $subject2, $message);
+
+?>	
+
+
+</body>
+</html>
